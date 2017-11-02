@@ -1,0 +1,42 @@
+body{
+	text-align: center;
+}
+#cont{
+	margin-left: 1em;
+}
+#cont div{
+	padding: 1em .5em;
+	margin-bottom: 2em;
+	outline: .1em solid #e5e3f2;
+	background-color: #fff;	
+}
+.heart, .trash{
+	margin: 1em;
+	float: right;
+}
+.trash:hover{
+	color: #1da1f2;
+	cursor: pointer;
+}
+.red{
+	color: #fc1e26;
+	cursor: pointer;
+}
+p{
+	display: inline-block;
+	margin-left: .5em;
+}
+.img{
+	background-image: url(../imagenes/colors.gif);
+	background-position: center;
+	background-size: 400px 286px;
+	padding: 100px;
+	background-repeat: no-repeat;
+}
+.strike-out{
+	text-decoration: line-through;
+	color: #1da1f2;
+}
+.imgLogo{
+	width: 150px;
+}
