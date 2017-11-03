@@ -5,10 +5,12 @@ body{
 	margin-left: 1em;
 }
 #cont div{
+	width: 600px;
 	padding: 1em .5em;
 	margin-bottom: 2em;
 	outline: .1em solid #e5e3f2;
 	background-color: #fff;	
+	margin: auto;
 }
 .heart, .trash{
 	margin: 1em;
@@ -27,10 +29,10 @@ p{
 	margin-left: .5em;
 }
 .img{
-	background-image: url(../imagenes/colors.gif);
+	background-image: url(../imagenes/instagram-gif-1.gif);
 	background-position: center;
-	background-size: 400px 286px;
-	padding: 100px;
+	background-size: 710px 264px;
+	padding: 150px;
 	background-repeat: no-repeat;
 }
 .strike-out{
@@ -40,3 +42,33 @@ p{
 .imgLogo{
 	width: 150px;
 }
+textarea{
+	width: 600px;
+	padding: 1em .5em;
+
+	outline: .1em solid #e5e3f2;
+	background-color: #fff;
+	display: inline-block;
+}
+button{
+	background-color: #0066cc;
+	border-radius: 2px;
+	padding: 10px;
+	border:none;
+	color: #fff;
+	display: block;
+	margin:auto;
+	margin-bottom: 10px;
+}
+label{
+	color:#ff0000;
+	display: block;
+	margin-bottom: 10px;
+	text-align: left;
+	margin-left: 27%;
+	display: none;
+}
+
+
+
+
